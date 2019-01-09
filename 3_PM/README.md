@@ -4,7 +4,7 @@
 
 ### Introduction: Todo Site
 
-Your task for the next few daysis to create a 'Todo Tracker' website. This single-page website should be able to perform the following actions:
+Your task for the next few days is to create a 'Todo Tracker' website. This single-page website should be able to perform the following actions:
 
 - Add todos to a list
 - Delete todos once they have been added
@@ -13,8 +13,10 @@ Your task for the next few daysis to create a 'Todo Tracker' website. This singl
 Please view the demo video uploaded at designs/Todo_Demo.m4v for an idea of what the site should look like. Do note the following specifications:
 
 - When there are no todos in the list, the text 'No Todos to complete' should render under 'Current Todos', and the search bar should not appear
+    # Conditional behavior
 - As soon as a todo has been added, it will appear as an unordered list element under 'Current Todos' along with the search bar. Next to the todo should be a button which deletes the todo from the list.
 - The search bar updates the filtering whenever its text is changed - if a todo does not contain the text as a substring than it is taken away
+    # Listener that re-renders onChange
 - If there are todos in existence and the search bar does not match any of them, the text 'No results found' should be rendered under 'Current Todos'
 - At this state of the project, do not worry about styling at all (that will be the next stage!) - for now, it's most important that you nail down the basics of data flow and state management in React.
 
