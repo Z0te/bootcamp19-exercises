@@ -13,7 +13,7 @@ class App extends Component {
             <Switch>
               <Route path="/" component={Home} />
             </Switch>
-          </div>
+          
         </ThemeProvider>
       </Router>
     );
